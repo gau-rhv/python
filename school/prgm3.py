@@ -20,7 +20,7 @@ while True:
     opt = int(input(">> Enter your Option: "))
     
     if opt == 1:
-        l = list(eval(input(">> Enter List {Need Even no.of Elements}: ")))
+        l = list(eval(input(">> Enter List {Need Even no.of Element: ")))
         print("Before Swap: ",l)
         L = swapHalf(l)
         print("After Swap: ",L)
